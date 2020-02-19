@@ -115,7 +115,7 @@ def main():
 	sub1.update_yaxes(showgrid=True,gridcolor='#F4EFEB',gridwidth=0.5, row=1, col=1)
 	sub1.update_layout(margin= do.layout.Margin(t=30,b=15,r=0,l=0), showlegend=False, plot_bgcolor='#ffffff', hovermode='x')
 
-	st.markdown('<h1 style="color:#017cbf; font-family:roboto;">MARKET MOVERS</h1> Trading as of ' + str(datay[0]['latestTime']), unsafe_allow_html=True)
+	st.markdown('<h1 style="color:#017cbf; font-family:roboto;">MARKET MOVERS</h1> Trading as of ' + str(datay[0]['latestTime'] + ' Eastern Standard Time'), unsafe_allow_html=True)
 	refresh = st.button('Refresh Dashboard',key='refresh_but')
 	if refresh:
 		rerun()
