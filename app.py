@@ -9,7 +9,7 @@ from plotly.subplots import make_subplots
 import streamlit as st
 from st_rerun import rerun
 
-iex_key = 'pk_e682e00599c744d9bb4d6686d4ee7549'
+iex_key = ''
 
 def _max_width_():
     max_width_str = f"max-width: 2000px;"
