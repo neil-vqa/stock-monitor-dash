@@ -3,4 +3,4 @@ iexfinance==0.4.3
 pandas==1.0.1
 numpy==1.22.0
 plotly==4.4.1
-streamlit==0.53.0
+streamlit==1.37.0
